@@ -392,8 +392,8 @@ class ParallaxScrollView extends Component {
 						styles.stickyHeader,
 						{
 							width: viewWidth,
-									  // transform: [{ translateY }],
-									  opacity: opacity,
+							transform: [{translateY}],
+							opacity: opacity,
 							...(stickyHeaderHeight ? { height: stickyHeaderHeight } : null)
 						}
 					]}
